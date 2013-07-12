@@ -1,0 +1,473 @@
+позвони COMMAND command
+леше NAME name
+
+позвони COMMAND command
+на OTHER other
+номер COMMAND command
+89171234567 TEL tel
+
+набери COMMAND command
++79171234567 TEL tel
+
+набери COMMAND command
+номер COMMAND command
++79171234567 TEL tel
+
+набери COMMAND command
+мне OTHER other
+номер COMMAND command
+89171234567 TEL tel
+
+пожалуйста OTHER other
+позвони COMMAND command
+леше NAME name
+
+открой COMMAND command
+yandex.ru URL url
+
+открой COMMAND command
+в OTHER other
+браузере OTHER other
+yandex.ru URL url
+
+отправь COMMAND command
+васе NAME name
+сообщение COMMAND command
+
+отправь COMMAND command
+ане NAME name
+смс COMMAND command
+с OTHER other
+текстом OTHER other
+привет OTHER other
+
+перешли COMMAND command
+письмо COMMAND command
+по OTHER other
+адресу OTHER other
+example@gmail.com EMAIL email
+
+покажи COMMAND command
+баланс COMMAND command
+
+проверь OTHER other
+баланс COMMAND command
+телефона COMMAND command
+
+проверь OTHER other
+баланс COMMAND command
+средств OTHER other
+
+поставь OTHER other
+будильник COMMAND command
+на OTHER other
+7 TIME time
+30 TIME time
+
+заведи OTHER other
+будильник COMMAND command
+на OTHER other
+8 TIME time
+утра TIME time
+
+позвони COMMAND command
+Имя NAME name
+
+набери COMMAND command
+маму NAME name
+
+давай OTHER other
+позвоним COMMAND command
+Имя NAME name
+
+я OTHER other
+хочу OTHER other
+позвонить COMMAND command
+Имя NAME name
+
+соедини COMMAND command
+меня OTHER other
+с OTHER other
+Имя NAME name
+
+набери COMMAND command
+пожалуйста OTHER other
+Имя NAME name
+
+можешь OTHER other
+набрать COMMAND command
+пожалуйста OTHER other
+Имя NAME name
+
+набери COMMAND command
+Имя NAME name
+
+позвони COMMAND command
+Имя NAME name
+
+Рино APP app
+позвони COMMAND command
+Имя NAME name
+пожалуйста OTHER other
+
+Риночка APP app
+набери COMMAND command
+ка OTHER other
+мне OTHER other
+Имя NAME name
+
+набери COMMAND command
+звездочка OTHER other
+сто OTHER other
+решетка OTHER other
+
+набери COMMAND command
+* OTHER other
+100 OTHER other
+# OTHER other
+
+набери COMMAND command
+моего OTHER other
+друга OTHER other
+Имя NAME name
+
+Рино APP app
+давай OTHER other
+позвоним COMMAND command
+Имя NAME name
+Фамилия NAME name
+
+набери COMMAND command
+Имя NAME name
+Фамилия NAME name
+
+позвони COMMAND command
+Имя NAME name
+Фамилия NAME name
+пожалуйста OTHER other
+
+набери COMMAND command
+Имя NAME name
+Отчество NAME name
+
+теперь OTHER other
+набери COMMAND command
+Имя NAME name
+
+набери COMMAND command
+снова OTHER other
+Имя NAME name
+
+давай OTHER other
+позвоним COMMAND command
+Имя NAME name
+Фамилия NAME name
+
+ты OTHER other
+бы OTHER other
+мог OTHER other
+набрать COMMAND command
+мне OTHER other
+Имя NAME name
+
+будь OTHER other
+добр OTHER other
+позвони COMMAND command
+Имя NAME name
+
+позвони COMMAND command
+на OTHER other
+номер COMMAND command
+Номер TEL tel
+
+набери COMMAND command
+Номер TEL tel
+
+набери COMMAND command
+телефон COMMAND command
+Номер TEL tel
+
+позвони COMMAND command
+по OTHER other
+телефону COMMAND command
+Номер TEL tel
+
+Рино APP app
+набери COMMAND command
+телефонный COMMAND command
+номер COMMAND command
+Номер TEL tel
+
+набери COMMAND command
+короткий OTHER other
+номер COMMAND command
+Номер TEL tel
+
+позвони COMMAND command
+по OTHER other
+номеру COMMAND command
+Номер TEL tel
+
+проверь OTHER other
+баланс COMMAND command
+
+можешь OTHER other
+мне OTHER other
+показать OTHER other
+баланс COMMAND command
+
+какой OTHER other
+баланс COMMAND command
+
+баланс COMMAND command
+мне OTHER other
+
+хочу OTHER other
+знать OTHER other
+баланс COMMAND command
+
+открой COMMAND command
+Сайт URL url
+
+открой COMMAND command
+мне OTHER other
+Сайт URL url
+
+хорошо OTHER other
+покажи COMMAND command
+мне OTHER other
+Сайт URL url
+
+покажи COMMAND command
+Сайт URL url
+
+открой COMMAND command
+пожалуйста OTHER other
+Сайт URL url
+
+можешь OTHER other
+мне OTHER other
+открыть COMMAND command
+Сайт URL url
+
+Сайт URL url
+пожалуйста OTHER other
+
+открой COMMAND command
+Сайт URL url
+
+запусти OTHER other
+Сайт URL url
+
+Рино APP app
+открой COMMAND command
+Сайт URL url
+
+дорогуша OTHER other
+открой COMMAND command
+ка OTHER other
+мне OTHER other
+Сайт URL url
+
+отправь COMMAND command
+Имя NAME name
+письмо COMMAND command
+Текст TEXT text
+
+перешли COMMAND command
+письмо COMMAND command
+Имя NAME name
+с OTHER other
+текстом OTHER other
+Текст TEXT text
+
+давай OTHER other
+напишем OTHER other
+теперь OTHER other
+письмо COMMAND command
+Имя NAME name
+
+напиши OTHER other
+Имя NAME name
+письмо COMMAND command
+
+Рино APP app
+напиши OTHER other
+пожалуйста OTHER other
+письмо COMMAND command
+Текст TEXT text
+
+Рино APP app
+отправь COMMAND command
+письмо COMMAND command
+по OTHER other
+адресу OTHER other
+Адрес EMAIL email
+
+перешли COMMAND command
+письмо COMMAND command
+по OTHER other
+адресу OTHER other
+Адрес EMAIL email
+
+отправь COMMAND command
+письмо COMMAND command
+на OTHER other
+Адрес EMAIL email
+
+напиши OTHER other
+смс COMMAND command
+с OTHER other
+текстом OTHER other
+Текст TEXT text
+
+напиши OTHER other
+смс COMMAND command
+Имя NAME name
+
+набери COMMAND command
+пожалуйста OTHER other
+смс COMMAND command
+
+отправь COMMAND command
+смс COMMAND command
+с OTHER other
+текстом OTHER other
+Текст TEXT text
+
+перешли COMMAND command
+смску OTHER other
+Текст TEXT text
+
+набери COMMAND command
+смс COMMAND command
+сообшение OTHER other
+с OTHER other
+текстом OTHER other
+Текст TEXT text
+
+Рино APP app
+напиши OTHER other
+смс COMMAND command
+
+будь OTHER other
+добр OTHER other
+набери COMMAND command
+смс COMMAND command
+
+смс COMMAND command
+Имя NAME name
+Текст TEXT text
+
+смс COMMAND command
+с OTHER other
+текстом OTHER other
+Текст TEXT text
+
+можешь OTHER other
+набрать COMMAND command
+мне OTHER other
+смску OTHER other
+
+отправь COMMAND command
+смс COMMAND command
+на OTHER other
+номер COMMAND command
+Номер TEL tel
+
+отправь COMMAND command
+смску OTHER other
+с OTHER other
+текстом OTHER other
+Текст TEXT text
+на OTHER other
+короткий OTHER other
+номер COMMAND command
+Номер TEL tel
+
+перешли COMMAND command
+смс COMMAND command
+сообщение COMMAND command
+Имя NAME name
+
+поставь OTHER other
+будильник COMMAND command
+на OTHER other
+7 TIME time
+часов TIME time
+30 TIME time
+минут TIME time
+
+будильник COMMAND command
+на OTHER other
+7 TIME time
+30 TIME time
+
+заведи OTHER other
+будильник COMMAND command
+на OTHER other
+7 TIME time
+утра TIME time
+
+поставить OTHER other
+будильник COMMAND command
+на OTHER other
+8 TIME time
+30 TIME time
+
+Рино APP app
+поставь OTHER other
+пожалуйста OTHER other
+будильник COMMAND command
+на OTHER other
+8 TIME time
+часов TIME time
+30 TIME time
+минут TIME time
+
+поставь OTHER other
+будильник COMMAND command
+на OTHER other
+полчаса TIME time
+
+заведи OTHER other
+будильник COMMAND command
+на OTHER other
+полчаса TIME time
+
+можешь OTHER other
+поставить OTHER other
+будильник COMMAND command
+на OTHER other
+8 TIME time
+часов TIME time
+
+душенька OTHER other
+будильник COMMAND command
+на OTHER other
+8 TIME time
+30 TIME time
+
+разбуди OTHER other
+меня OTHER other
+в OTHER other
+7 TIME time
+утра TIME time
+
+заведи OTHER other
+будильник COMMAND command
+на OTHER other
+завтра TIME time
+
+поставь OTHER other
+будильник COMMAND command
+на OTHER other
+утро TIME time
+
+пожалуйста OTHER other
+заведи OTHER other
+будильник COMMAND command
+на OTHER other
+10 TIME time
+часов TIME time
+

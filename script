@@ -1,0 +1,106 @@
+#!/bin/bash
+
+#
+# CLI - related variables
+#
+
+cli="java be.ac.ulg.montefiore.run.jahmm.apps.cli.Cli"
+opdf="-opdf multi_gaussian -d 6"
+
+#
+# File names
+#
+
+tmp_dir="."
+prevHmm="${tmp_dir}/hmmPrev.hmm"
+initHmm="${tmp_dir}/hmmInit.hmm"
+learntHmm="${tmp_dir}/hmmLearnt.hmm"
+seqs="${tmp_dir}/in.seq"
+
+#
+# Functions
+#
+
+create_files()
+{
+	cat > ${prevHmm} <<EOF
+EOF
+
+	cat > ${learntHmm} <<EOF
+EOF
+	
+	cat > ${initHmm} <<EOF
+Hmm v1.0
+
+NbStates 7
+
+State
+Pi 0.2
+A 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+MultiGaussianOPDF [ [ 1 0 0 0 0 0 ] [ [ 0.25 0 0 0 0 0 ] [ 0 0.25 0 0 0 0 ] [ 0 0 0.25 0 0 0 ] [ 0 0 0 0.25 0 0 ] [ 0 0 0 0 0.25 0 ] [ 0 0 0 0 0 0.25 ] ] ]
+
+State
+Pi 0.2
+A 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+MultiGaussianOPDF [ [ 0 1 0 0 0 0 ] [ [ 0.25 0 0 0 0 0 ] [ 0 0.25 0 0 0 0 ] [ 0 0 0.25 0 0 0 ] [ 0 0 0 0.25 0 0 ] [ 0 0 0 0 0.25 0 ] [ 0 0 0 0 0 0.25 ] ] ]
+
+State
+Pi 0.2
+A 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+MultiGaussianOPDF [ [ 0 0 1 0 0 0 ] [ [ 0.25 0 0 0 0 0 ] [ 0 0.25 0 0 0 0 ] [ 0 0 0.25 0 0 0 ] [ 0 0 0 0.25 0 0 ] [ 0 0 0 0 0.25 0 ] [ 0 0 0 0 0 0.25 ] ] ]
+
+State
+Pi 0.2
+A 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+MultiGaussianOPDF [ [ 0 0 0 1 0 0 ] [ [ 0.25 0 0 0 0 0 ] [ 0 0.25 0 0 0 0 ] [ 0 0 0.25 0 0 0 ] [ 0 0 0 0.25 0 0 ] [ 0 0 0 0 0.25 0 ] [ 0 0 0 0 0 0.25 ] ] ]
+
+State
+Pi 0.2
+A 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+MultiGaussianOPDF [ [ 0 0 0 0 1 0 ] [ [ 0.25 0 0 0 0 0 ] [ 0 0.25 0 0 0 0 ] [ 0 0 0.25 0 0 0 ] [ 0 0 0 0.25 0 0 ] [ 0 0 0 0 0.25 0 ] [ 0 0 0 0 0 0.25 ] ] ]
+
+State
+Pi 0.2
+A 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+MultiGaussianOPDF [ [ 0 0 0 0 0 1 ] [ [ 0.25 0 0 0 0 0 ] [ 0 0.25 0 0 0 0 ] [ 0 0 0.25 0 0 0 ] [ 0 0 0 0.25 0 0 ] [ 0 0 0 0 0.25 0 ] [ 0 0 0 0 0 0.25 ] ] ]
+
+State
+Pi 0.2
+A 0.1 0.1 0.1 0.1 0.1 0.1 0.1
+MultiGaussianOPDF [ [ 0 0 0 0 0 0 ] [ [ 0.25 0 0 0 0 0 ] [ 0 0.25 0 0 0 0 ] [ 0 0 0.25 0 0 0 ] [ 0 0 0 0.25 0 0 ] [ 0 0 0 0 0.25 0 ] [ 0 0 0 0 0 0.25 ] ] ]
+EOF
+
+}
+
+#
+# Main section
+#
+
+# Create sample HMMs
+create_files;
+
+#~ ${cli} learn-kmeans ${opdf} -n 7 -is ${seqs} -o ${learntHmm}
+
+
+# Generate sequences of observations using ${hmm}
+#~ ${cli} generate ${opdf} -i ${initHmm} -os ${seqs}
+
+# Baum-Welch learning based on ${initHmm}
+cp ${initHmm} ${learntHmm}
+#~ cp ${learntHmm} ${prevHmm}
+for i in 0
+do
+	echo $i
+	#~ ${cli} distance-kl ${opdf} -i ${learntHmm} -ikl ${prevHmm}
+	${cli} learn-bw ${opdf} -i ${initHmm} -o ${learntHmm} -is ${seqs} -ni 2
+	#~ cp ${learntHmm} ${prevHmm}
+done
+
+
+#~ # Print resulting HMM
+echo
+echo "Resulting HMM:"
+${cli} print -i ${learntHmm}
+
+
+exit 0
