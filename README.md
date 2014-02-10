@@ -3,7 +3,7 @@ HmmPatternTrainer
 
 A personal assistant by Nikolay Ivanov and Irina Brovar, supervised by Dr Mstislav Maslennikov
 
-Nickname: anAssistant 13
+Nickname: AnAssistant 13
 
 This is a project for the "Mathematical methods for text analysis" course in spring 2013 in MSU. 
 
